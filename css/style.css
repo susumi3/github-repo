@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 2;
+}
+
+header {
+    width: 1034px;
+    height: 120px;
+    margin: 0 auto;
+
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#wrap {
+    width: 1034px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.content {
+    margin-left: 15px;
+}
+
+#file {
+    margin-left: 8px;
+    list-style: none;
+    margin-top: 5px;
+}
+
+footer small {
+    font-size: 12px;
+}
+
+h1, h4 {
+    line-height: 1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #3583aa;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
