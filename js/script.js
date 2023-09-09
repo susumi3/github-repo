@@ -1,6 +1,6 @@
 'use script';
 
-const api_endpoint = "https://api.github.com/repos/suzumiya3/github-repo/contents";
+const api_endpoint = "https://api.github.com/repos/suzumiya-3/github-repo/contents";
 
 const path = location.pathname.replace('/github-repo', '');
 
