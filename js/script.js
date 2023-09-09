@@ -1,7 +1,7 @@
 'use script';
 
 const api_endpoint = "https://api.github.com/repos/suzumiya-3/github-repo/contents";
-
+# ここから/github-repoや/github-repo/を使用してるところは独自ドメインを使用する場合削除をお勧めします。
 const path = location.pathname.replace('/github-repo', '');
 
 $(document).ready(function() {
@@ -25,7 +25,7 @@ $(document).ready(function() {
             var img = document.createElement('img');
             if (_type === 'dir') {
                 name += _name + "/";
-                a.href = "/" + _name;
+                a.href = "/github-repo/" + _name; 
                 img.src = "img/folder.png";
             }else {
                 var size;
